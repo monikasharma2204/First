@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightcoral;
+  }
+  
+  
+  
+  .carousel{
+    padding: 5rem;
+    background-color:lightcoral;
+    height: 100vh;
+    width: 100vw;
+  }
+  .tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    background-color: lightcoral;
+  }
+  .box{
+    background-color:#fff;
+    height: 300px;
+    height: auto;
+    
+  }
+  
+  .box img{
+    height: 35rem;
+    width: 350px;
+    max-width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+  
+    
+  }
+  .slick-slide div{
+    margin: 0 1rem;
+  }
+  .slick-dots li.slick-active button:before{
+    color:  black !important;
+    background-color: pink;
+  }
+  .slick-dots li button:before {
+    color: #fff  !important;
+    font-size: 1rem !important;
+    top: 2rem !important;
+  }

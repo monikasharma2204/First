@@ -1,0 +1,28 @@
+
+.workshop-banner-container {
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+
+  }
+  
+  .workshop-image-section {
+    flex: 1;
+  }
+  
+  .workshop-image-section img {
+    width: 100%;
+    height: auto;
+    padding: 60px;
+  }
+  
+  .workshop-text-section {
+    flex: 2;
+    padding: 0 20px;
+  }
+  
+  .secondary-button{
+    margin-bottom: 20px;
+
+  }
+  
